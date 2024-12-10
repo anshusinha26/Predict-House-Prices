@@ -1,6 +1,6 @@
 # 🏠 Predict House Prices
 
-An in-depth data analysis project focused on the Titanic disaster. This project involves data cleaning, visualization, and machine learning to predict survival rates and uncover significant patterns from the dataset. It includes advanced techniques such as hyperparameter tuning and model evaluation.
+A machine learning project that predicts house prices using multiple variable regression. The project uses the boston.csv dataset and involves comprehensive data analysis, visualization, and model training to determine the relationship between various factors and house prices.
 
 ---
 
@@ -12,18 +12,14 @@ An in-depth data analysis project focused on the Titanic disaster. This project 
 
 ## ✨ Features
 
-- Data Wrangling: Comprehensive preprocessing using Pandas, NumPy, and Missingno to handle missing values and optimize datasets.
-- Data Visualization: Insightful visualizations with Seaborn and Matplotlib for better understanding of trends and patterns.
-- Machine Learning Models: Implementation of various classifiers such as Logistic Regression, Random Forest, SVM, and CatBoost to predict survival outcomes.
-- Model Evaluation: Performance assessment using cross-validation and metrics analysis.
-- Hyperparameter Tuning: GridSearchCV applied for fine-tuning model parameters to achieve better accuracy.
-
+- Data Wrangling: Preprocessed and cleaned the dataset for analysis.
+- Data Visualization: Created insightful visualizations to identify patterns and trends using Seaborn, Matplotlib, and Plotly.
+- Machine Learning: Implemented multiple linear regression using Scikit-learn for price prediction.
+- Model Evaluation: Split data into training and testing sets for performance evaluation.
 ---
 
 ## ⚙️ Tech Stack
 
-- Pandas, NumPy: For data manipulation and cleaning.
-- Missingno: For handling and visualizing missing data.
-- Seaborn, Matplotlib: For plotting and data visualization.
-- Scikit-learn: For machine learning models, evaluation, and tuning.
-- CatBoost: Advanced gradient boosting for classification tasks.
+- Pandas, NumPy: For data processing and manipulation.
+- Seaborn, Plotly, Matplotlib: For creating interactive and static visualizations.
+- Scikit-learn: For regression modeling and train-test splits.
